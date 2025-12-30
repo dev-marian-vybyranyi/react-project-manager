@@ -20,8 +20,6 @@ const NewProject = ({ onAdd, onCancel }) => {
       dueDate: enteredDueDate,
     };
 
-    console.log("Saving project:", projectData);
-
     if (
       enteredTitle.trim() === "" ||
       enteredDescription.trim() === "" ||
